@@ -3,12 +3,16 @@
 
 ## 1. Summery
 
-Remote sensing image segmentation is pivotal for earth observation, underpinning applications such as environmental monitoring and urban planning. Due to the limited annotation data available in remote sensing images, numerous studies have focused on data augmentation as a means to alleviate overfitting in deep learning networks. However, some existing data augmentation strategies rely on simple transformations that may not sufficiently enhance data diversity or model generalization capabilities. This paper proposes a novel augmentation strategy, Clustered-Patch-Mixed Mosaic (CP2M), designed to address these limitations. CP2M integrates a Mosaic augmentation phase with a clustered patch mix phase. The former stage constructs a new sample from four random samples, while the latter phase uses the connected component labeling algorithm to ensure the augmented data maintains spatial coherence and avoids introducing irrelevant semantics when pasting random patches. Our experiments on the ISPRS Potsdam dataset demonstrate that CP2M substantially mitigates overfitting, setting new benchmarks for segmentation accuracy and model robustness in remote sensing tasks.
+Remote sensing image segmentation is vital for earth observation but limited annotation data in remote sensing often leads to overfitting in deep learning models, driving research into data augmentation techniques. Many current approaches, however, rely on simple transformations that fail to enhance data diversity or model generalization effectively. Hence, We propose Clustered-Patch-Mixed Mosaic (CP2M), a novel augmentation strategy addressing these challenges. CP2M combines Mosaic augmentation, which merges four random samples, with a clustered patch mix phase leveraging connected component labeling to maintain spatial coherence and avoid irrelevant semantics. Experiments on the ISPRS Potsdam dataset show CP2M significantly reduces overfitting, achieving state-of-the-art segmentation accuracy and robustness for remote sensing tasks.
 
 
 **Overall Pipeline**
+The below Figure shows the overall pipeline for CP2M.
 ![](./assets/cp2m.svg)
+
 **Segmentation Model**
+The figure below shows an example of how CP2M seamlessly integrates into some segmentation models like MobileNetV2-UNet.
+
 ![](./assets/cp2m-unet.svg)
 
 ## 2. Dependencies
