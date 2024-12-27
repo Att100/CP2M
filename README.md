@@ -89,4 +89,6 @@ python train.py --name <EXPPERIMENT NAME> --key <YOUR WANDB KEY> -aug
 python test.py --gt_path <PATH OF THE CHECKPOINT>
 ```
 
+## 4. Results
 
+You can download our pre-trained checkpoints for all experiments from [link](https://drive.google.com/drive/folders/1qzq7YQKJ8ZzhoK9PoxFJuVV5IC2QOwK4?usp=sharing)
