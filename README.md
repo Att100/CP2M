@@ -1,4 +1,4 @@
-# CP2M: Clustered-Patch-Mixed Mosaic Augmentation for Aerial Image Segmentation
+## CP2M: Clustered-Patch-Mixed Mosaic Augmentation for Aerial Image Segmentation
 
 
 ## 1. Summery
