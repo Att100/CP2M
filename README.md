@@ -15,7 +15,7 @@ The below Figure shows the overall pipeline for CP2M.
 <div align=center><img src="./assets/cp2m.svg?raw=true" width="700"/></div>
 
 **Segmentation Model**
-The figure below shows an example of how CP2M seamlessly integrates into some segmentation models like MobileNetV2-UNet. In this example, the MobileNetV2 encoder extracts multi-scale features through its hierarchical layers (E1–E5), which are then passed through a channel reduction module (RD) before being concatenated with the corresponding decoder outputs (D1–D4). CP2M augments the input samples fed to this architecture, enhancing data diversity while maintaining spatial coherence. By leveraging CP2M's Mosaic and clustered patch mix phases, the segmentation model achieves better generalization, reduced overfitting, and improved performance on tasks like aerial image analysis, as demonstrated in experiments with the ISPRS Potsdam dataset.
+The figure below illustrates an example of how images enhanced by CP2M are processed through segmentation models like MobileNetV2-UNet. In this example, the MobileNetV2 encoder extracts multi-scale features through its hierarchical layers (E1–E5), which are then passed through a channel reduction module (RD) before being concatenated with the corresponding decoder outputs (D1–D4). CP2M augments the input samples fed to this architecture, enhancing data diversity while maintaining spatial coherence. By leveraging CP2M's Mosaic and clustered patch mix phases, the segmentation model achieves better generalization, reduced overfitting, and improved performance on tasks like aerial image analysis, as demonstrated in experiments with the ISPRS Potsdam dataset.
 
 <div align=center><img src="./assets/cp2m-unet.svg?raw=true" width="700"/></div>
 
