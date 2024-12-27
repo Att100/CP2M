@@ -1,5 +1,9 @@
 ## CP2M: Clustered-Patch-Mixed Mosaic Augmentation for Aerial Image Segmentation
 
+With the spirit of reproducible research, this repository contains all the codes required to produce the results in the manuscript: 
+
+> Yijie Li, Hewei Wang, Jinfeng Xu, Zixiao Ma, Puzhen Wu, Shaofan Wang, and Soumyabrata Dev, CP2M: Clustered-Patch-Mixed Mosaic Augmentation for Aerial Image Segmentation, *IEEE International Geoscience and Remote Sensing Symposium (IGARSS)*, under review.
+
 
 ## 1. Summery
 
